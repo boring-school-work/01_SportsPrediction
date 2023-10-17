@@ -1,6 +1,6 @@
 # 01_SportsPrediction
 
-Intro to AI mid-sem project
+Intro to AI mid-sem project.
 
 ## Team Members
 
