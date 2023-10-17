@@ -26,7 +26,9 @@ In this project, we are tasked to build a model(s) that predict a player's overa
   - [ ] Feature subsetting.
   - [ ] Normalising data.
   - [ ] Scaling data.
-- [ ] Model engineering.
+
+### Model engineering.
+
   - [ ] Get training & testing data.
   - [ ] Train the model with cross-validation.
   - [ ] Test the accuracy of the model.
