@@ -17,9 +17,9 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ### Data preparation & feature extraction
 
-- [ ] Data collection and labelling.
-  - [ ] Acquire data.
-- [ ] Data cleaning.
+- [x] Data collection and labelling.
+  - [x] Acquire data.
+- [x] Data cleaning.
   - [ ] Imputing missing values.
 - [ ] Data processing.
   - [ ] Feature selection.
@@ -27,15 +27,15 @@ In this project, we are tasked to build a model(s) that predict a player's overa
   - [ ] Normalising data.
   - [ ] Scaling data.
 
-### Model engineering.
+### Model engineering
 
-  - [ ] Get training & testing data.
-  - [ ] Train the model with cross-validation.
-  - [ ] Test the accuracy of the model.
-  - [ ] Fine tune model (optimisation).
-  - [ ] Use different models.
-    - [ ] Train 3 models.
-  - [ ] Perform ensembling.
+- [ ] Get training & testing data.
+- [ ] Train the model with cross-validation.
+- [ ] Test the accuracy of the model.
+- [ ] Fine tune model (optimisation).
+- [ ] Use different models.
+  - [ ] Train 3 models.
+- [ ] Perform ensembling.
 
 ## Directory Structure
 
