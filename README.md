@@ -20,22 +20,22 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 - [x] Data collection and labelling.
   - [x] Acquire data.
 - [x] Data cleaning.
-  - [ ] Imputing missing values.
-- [ ] Data processing.
-  - [ ] Feature selection.
-  - [ ] Feature subsetting.
-  - [ ] Normalising data.
-  - [ ] Scaling data.
+  - [x] Imputing missing values.
+- [x] Data processing.
+  - [x] Feature selection.
+  - [x] Feature subsetting.
+  - [x] Normalising data.
+  - [x] Scaling data.
 
 ### Model engineering
 
-- [ ] Get training & testing data.
-- [ ] Train the model with cross-validation.
-- [ ] Test the accuracy of the model.
-- [ ] Fine tune model (optimisation).
-- [ ] Use different models.
-  - [ ] Train 3 models.
-- [ ] Perform ensembling.
+- [x] Get training & testing data.
+- [x] Train the model with cross-validation.
+- [x] Test the accuracy of the model.
+- [x] Fine tune model (optimisation).
+- [x] Use different models.
+  - [x] Train 3 models.
+- [x] Perform ensembling.
 
 ## Directory Structure
 
@@ -45,6 +45,19 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 - **src:** Source codes for model training. (.py and .ipynb files)
 - **app:** Source code for model deployment.
 - **demo:** Demo video.
+
+## Chosen Features
+
+1. potential
+2. wage_eur
+3. dob
+4. passing
+5. dribbling
+6. attacking_short_passing
+7. movement_reactions
+8. power_shot_power
+9. mentality_vision
+10. mentality_composure
 
 ## Deployment
 
