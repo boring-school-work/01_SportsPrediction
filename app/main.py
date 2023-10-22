@@ -15,7 +15,7 @@ st.subheader("", divider="rainbow")
 
 
 # load model
-model = pickle.load(open('../model_xgb.pkl', 'rb'))
+model = pickle.load(open('model_xgb.pkl', 'rb'))
 
 
 def predict(
