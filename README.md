@@ -77,4 +77,8 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ## Video Demo
 
-[![Demo video](https://youtu.be/mU940v4Ysko)](https://youtu.be/mU940v4Ysko)
+Youtube link: https://youtu.be/mU940v4Ysko
+
+https://github.com/DaveSaah/01_SportsPrediction/assets/53381103/10a079ff-48f6-44f4-a528-f6afa8e8aa4c
+
+
