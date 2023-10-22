@@ -20,8 +20,8 @@ import pickle
 
 # %%
 # read data
-training_data = pd.read_csv('../data/players_21.csv')
-new_testing_data = pd.read_csv('../data/players_22.csv')
+training_data = pd.read_csv('data/players_21.csv')
+new_testing_data = pd.read_csv('data/players_22.csv')
 
 # %% [markdown]
 # ## Data Preprocessing
@@ -53,7 +53,7 @@ new_testing_data.drop(cols_to_drop, axis=1, inplace=True)
 # %%
 # columns that obviously do not contribute to a player's rating
 cols_to_drop = [
-    "age",
+    "dob",
     "sofifa_id",
     "short_name",
     "long_name",
@@ -380,10 +380,14 @@ print(f"Mean Absolute Percentage Error: {mape}")
 # ## Save model
 
 # %%
-# save the best modelimport pickle
-pickle.dump(model_xgb, open('../models/model_xgb.pkl', 'wb'))
+# save the models
+pickle.dump(model_xgb, open('models/model_xgb.pkl', 'wb'))
+pickle.dump(model_rf, open('models/model_rf.pkl', 'wb'))
+pickle.dump(model_ada, open('models/model_ada.pkl', 'wb'))
 
 # %% [markdown]
-# Best model is XGBoost.
+# - Random forest model is very large compared tp XGBoost and AdaBoost.
+# - XGBoost and AdaBoost have similar performance, but XGBoost is performs better.
+# - XGBoost is the best model for this dataset.
 
 
