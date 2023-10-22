@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import os
 
 # set title
 st.title('Overall Player Rating Predictor')
@@ -13,6 +14,10 @@ col3.metric("R-squared score", "0.94")
 col4.metric("Mean absolute percentage error", "0.019")
 st.subheader("", divider="rainbow")
 
+# find path
+path = os.path.dirname(__file__)
+st.write(path)
+st.write(os.listdir(path))
 
 # load model
 model = pickle.load(open('model_xgb.pkl', 'rb'))
