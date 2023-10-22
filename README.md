@@ -50,14 +50,26 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 1. potential
 2. wage_eur
-3. dob
-4. passing
-5. dribbling
-6. attacking_short_passing
-7. movement_reactions
-8. power_shot_power
-9. mentality_vision
-10. mentality_composure
+3. passing
+4. dribbling
+5. attacking_short_passing
+6. movement_reactions
+7. power_shot_power
+8. mentality_vision
+9. mentality_composure
+
+## Model(s) Used
+
+- XGBoost Regressor
+- Random Forest Regressor
+- AdaBoost Regressor
+
+### Reasons for choosing the XGBoost Regressor
+
+- Random forest model is very large compared tp XGBoost and AdaBoost.
+- XGBoost and AdaBoost have similar performance, but XGBoost is performs better.
+  - R-squared score for XGBoost is 0.94 while that of AdaBoost is 0.86.
+- XGBoost is the best model for this dataset.
 
 ## Deployment
 
