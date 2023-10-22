@@ -66,7 +66,7 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ### Reasons for choosing the XGBoost Regressor
 
-- Random forest model is very large compared tp XGBoost and AdaBoost.
+- Random forest model is very large compared to XGBoost and AdaBoost.
 - XGBoost and AdaBoost have similar performance, but XGBoost is performs better.
   - R-squared score for XGBoost is 0.94 while that of AdaBoost is 0.86.
 - XGBoost is the best model for this dataset.
