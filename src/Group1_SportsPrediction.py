@@ -13,6 +13,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score, mean_absolute_percentage_error
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
+import pickle
 
 # %% [markdown]
 # ## Loading Data
@@ -379,11 +380,8 @@ print(f"Mean Absolute Percentage Error: {mape}")
 # ## Save model
 
 # %%
-# save the model
-import pickle
-pickle.dump(model_rf, open('../models/model_rf.pkl', 'wb'))
+# save the best modelimport pickle
 pickle.dump(model_xgb, open('../models/model_xgb.pkl', 'wb'))
-pickle.dump(model_ada, open('../models/model_ada.pkl', 'wb'))
 
 # %% [markdown]
 # Best model is XGBoost.
