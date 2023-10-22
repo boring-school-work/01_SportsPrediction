@@ -77,4 +77,4 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ## Video Demo
 
-[![Demo video]("./demo/demo.webm")]("./demo/demo.webm")
+![Demo video]("./demo/demo.webm")
