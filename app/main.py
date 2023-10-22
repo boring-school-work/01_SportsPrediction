@@ -54,54 +54,71 @@ def predict(
 potential = st.number_input(
     "Potential rating",
     key="potential",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
 )
 
 wage_eur = st.number_input(
     "Wage (in EUR)",
-    key="wage_eur"
+    key="wage_eur",
+    min_value=0.0
+
 )
 
 passing = st.number_input(
     "Passing rating",
     key="passing",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 dribbling = st.number_input(
     "Dribbling rating",
     key="dribbling",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 attacking_short_passing = st.number_input(
     "Attacking short passing rating",
     key="attacking_short_passing",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 movement_reactions = st.number_input(
     "Movement reactions rating",
     key="movement_reactions",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 power_shot_power = st.number_input(
     "Power shot power rating",
     key="power_shot_power",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 mentality_vision = st.number_input(
     "Mentality vision rating",
     key="mentality_vision",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 mentality_composure = st.number_input(
     "Mentality composure rating",
     key="mentality_composure",
-    max_value=100.0
+    max_value=100.0,
+    min_value=0.0
+
 )
 
 
