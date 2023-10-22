@@ -73,7 +73,7 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ## Deployment
 
-- Website link: [insert web link here]
+- Website link: [https://01-sportsprediction.streamlit.app](https://01-sportsprediction.streamlit.app)
 
 ## Video Demo
 
