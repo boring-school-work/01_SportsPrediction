@@ -14,12 +14,9 @@ col3.metric("R-squared score", "0.94")
 col4.metric("Mean absolute percentage error", "0.019")
 st.subheader("", divider="rainbow")
 
-# find path
-# list the current directory
-st.write(os.listdir(os.getcwd()))
-
 # load model
-model = pickle.load(open('model_xgb.pkl', 'rb'))
+model = pickle.load(
+    open('/mount/src/01_sportsprediction/app/model_xgb.pkl', 'rb'))
 
 
 def predict(
