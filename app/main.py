@@ -15,9 +15,8 @@ col4.metric("Mean absolute percentage error", "0.019")
 st.subheader("", divider="rainbow")
 
 # find path
-path = os.path.dirname(__file__)
-st.write(path)
-st.write(os.listdir(path))
+# list the current directory
+st.write(os.listdir(os.getcwd()))
 
 # load model
 model = pickle.load(open('model_xgb.pkl', 'rb'))
