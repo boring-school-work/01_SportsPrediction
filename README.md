@@ -39,12 +39,13 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 
 ## Directory Structure
 
+- **app:** Source code for model deployment.
 - **data:** Datasets
   - players_21.csv -> training data.
   - players_22.csv -> testing data.
+- **demo**: Demo video.
+- **models:** Saved models.
 - **src:** Source codes for model training. (.py and .ipynb files)
-- **app:** Source code for model deployment.
-- **demo:** Demo video.
 
 ## Chosen Features
 
@@ -80,5 +81,3 @@ In this project, we are tasked to build a model(s) that predict a player's overa
 Youtube link: https://youtu.be/mU940v4Ysko
 
 https://github.com/DaveSaah/01_SportsPrediction/assets/53381103/10a079ff-48f6-44f4-a528-f6afa8e8aa4c
-
-
